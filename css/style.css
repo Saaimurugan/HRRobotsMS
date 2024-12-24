@@ -4,7 +4,7 @@ body {
   background-color: #ffffff;
 }
 
-ul li{color: #ffffff;}
+ul li{color: #ffffff; align-content: left;}
 
 
 .layout_padding {
