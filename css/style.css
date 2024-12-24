@@ -884,7 +884,7 @@ a:focus {
         .card-container {
             display: flex;
             flex-wrap: wrap;
-            gap: 20px;
+            gap: 10px;
             justify-content: center;
         }
 
@@ -893,13 +893,8 @@ a:focus {
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             overflow: hidden;
-            width: 400px;
+            width: 500px;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
         }
 
         .card img {
@@ -909,7 +904,7 @@ a:focus {
         }
 
         .card-content {
-            padding: 20px;
+            padding: 10px;
         }
 
         .card-title {
@@ -936,6 +931,3 @@ a:focus {
             transition: background 0.3s ease;
         }
 
-        .card-button:hover {
-            background: #0056b3;
-        }
