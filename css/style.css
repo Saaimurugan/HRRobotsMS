@@ -39,6 +39,8 @@ ul li{color: #ffffff; align-content: left;}
   display: flex;
 }
 
+.subHead {color:white}
+
 .heading_container h2 {
   font-weight: bold;
   text-transform: uppercase;
