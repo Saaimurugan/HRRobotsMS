@@ -1,35 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <!-- Google tag (gtag.js) - Async Loading -->
+  <!-- Google tag (gtag.js) -->
+  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FWT9TFY67P"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'G-FWT9TFY67P', {
-      'send_page_view': false
-    });
-    // Delay analytics to improve page load
-    window.addEventListener('load', function() {
-      gtag('event', 'page_view');
-    });
-  </script>
-  
-  <!-- Global Error Handler - Inline for immediate execution -->
-  <script>
-    // Minimal error handler - full version loads later
-    window.addEventListener('error', function(e) {
-      if (e.filename && (e.filename.includes('vimeo') || e.filename.includes('gtag') || e.filename.includes('google'))) {
-        return true;
-      }
-      return false;
-    }, true);
-    
-    window.addEventListener('unhandledrejection', function(e) {
-      e.preventDefault();
-    });
+
+    gtag('config', 'G-FWT9TFY67P');
   </script>
 
   <!-- Basic -->
@@ -37,214 +18,53 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <!-- Mobile Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="theme-color" content="#1a2e35"/>
-  
-  <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
-  <link rel="shortcut icon" href="images/favicon.ico"/>
-  <link rel="apple-touch-icon" href="images/logo.png"/>
-  <link rel="manifest" href="manifest.json"/>
-  
-  <!-- DNS Prefetch for faster external resource loading -->
-  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
-  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
-  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
-  
-  <!-- Preconnect to critical domains -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  
+  <meta name="theme-color" content="#000000"/>
+  <link rel="shortcut icon" href="https://www.hrrobots.com/images/favicon.ico"/>
   <!-- Site Metas -->
-  <meta name="keywords" content="AI recruitment software, automated candidate screening, AI proctoring tools, talent acquisition automation, resume screening AI, virtual interview platform, skills assessment software, candidate screening tools, AI hiring platform, remote proctoring software, AI recruiting tools 2026, automated resume screening, AI interview software, online assessment platform, recruitment automation software, AI talent acquisition, automated skills testing, video interview AI, candidate assessment tools, AI screening software, free AI recruitment platform, TestGorilla alternative, Mercer Mettl alternative, HackerRank alternative, CodeSignal alternative, iMocha alternative, Examity alternative, Honorlock alternative, ProctorU alternative, AI-powered hiring, automated interviewing, predictive hiring tools, bias-free hiring AI, AI candidate scoring, resume parsing AI, job fit analysis, competency mapping AI, behavioral assessment AI, technical screening tools, coding assessment platform, high-volume screening, ATS integration, recruitment process automation, HR tech software, talent intelligence platform, AI sourcing tools, candidate matching AI, interview intelligence, recruiter automation, workforce analytics AI, hiring analytics, applicant tracking system, online exam proctoring, secure remote testing, identity verification AI, cheating detection AI, exam integrity software, AI behavioral analysis, real-time monitoring, automated shortlisting, personality assessment AI, soft skills testing, leadership assessment, NLP resume screening, machine learning recruitment" />
-  <meta name="description" content="HR Robots is a leading AI recruitment software platform offering automated candidate screening, AI proctoring, and virtual interviews. Our AI-powered hiring tools streamline talent acquisition with resume screening AI, skills assessment software, and automated interviewing. Trusted by 70+ companies worldwide for recruitment automation, remote proctoring, and candidate assessment. Free trial available for AI-driven hiring solutions that reduce time-to-hire and improve hiring quality through intelligent automation and predictive analytics.">
+  <meta name="keywords" content="Free AI assessment tool instead of TestGorilla, Mercer Mettl free alternative for online exams, Free alternative to iMocha for coding tests, Best free option for CodeSignal assessments, Free skills test software like eSkill, Free online quiz maker alternative to ProProfs, Competitor to Coderbyte with a free plan, Free AI-powered recruitment platforms, Top free online hiring assessment tools, Best free AI hiring software, Free AI-powered resume screening tool, AI-driven hiring automation at no cost, Free predictive hiring tools, AI-driven talent acquisition software, Free AI-powered job candidate ranking, Automated candidate shortlisting AI, Free personality matching AI software, Free AI job fit analysis tool, AI-driven bias-free hiring software, Best free remote proctoring tool, Free alternative to Examity for online exams, Free proctoring software without AI bias, AI-driven cheating detection for free, Free alternative to Honorlock for academic integrity, Free AI-based identity verification for exams, Secure AI proctoring tool at no cost, AI-powered fraud detection in online assessments, Free alternative to Codility for coding tests, AI-driven coding assessment tools for free, Free HackerRank alternative for tech hiring, Free coding challenge platforms for recruiters, AI-powered code review and assessment for free, Automated coding skills evaluation tools, Free AI-driven software engineering assessments, Free soft skills assessment AI tools, AI-powered behavioral analysis for free, Free emotional intelligence testing software, AI-based leadership assessment for free, Automated personality profiling for job candidates, NLP-powered candidate sentiment analysis, AI-powered hiring analytics at no cost, Free machine learning tools for HR, AI-driven recruitment process automation, Free predictive analytics for hiring, HR tech tools with free AI assessments, AI-driven workforce analytics for free, Free alternative for TestGorilla,  Free alternative for Mercer Mettl Assessments,  Free alternative for eSkill,  Free alternative for iMocha,  Free alternative for ProProfs Quiz Maker,  Free alternative for Codility,  Free alternative for CodeSignal,  Free alternative for HackerRank,  Free alternative for HackerEarth,  Free alternative for The Hire Talent,  Free alternative for Hire Success,  Free alternative for CodeSubmit,  Free alternative for Coderbyte,  Free alternative for CoderPad,  Free alternative for Willo,  Free alternative for Canditech,  Free alternative for Vervoe,  Free alternative for WeCP,  Free alternative for Equip,  Free alternative for InterviewVector, Free alternative for ProctorU,  Free alternative for Examity,  Free alternative for Proctorio,  Free alternative for Honorlock,  Free alternative for Respondus Monitor,  Free alternative for Talview,  Free alternative for Meazure Learning,  Free alternative for RPNow,  Free alternative for Proctor360,  Free alternative for AutoProctor,  Free alternative for Proctortrack,  Free alternative for ProctorStone,  Free alternative for Briso Proctor,  Free alternative for OnVUE,  Free alternative for Mercer Mettl Online Examination and Proctoring Solutions, AI Proctoring, Automated Interviewing, AI-Based Hiring, Profile Matching AI, Candidate Screening, HR Tech, Recruitment Automation, AI Interview Analysis, Talent Acquisition AI, AI-Driven Hiring, Remote Proctoring, AI-Based Proctoring, Proctoring Software, Secure Exam Monitoring, Automated Test Integrity, AI-Powered Surveillance, Proctoring Analytics, Identity Verification AI, Live Video Monitoring, Automated Cheating Detection, AI-Powered Candidate Scoring, Resume Matching AI, Job Fit Algorithm, AI-Based Competency Mapping, Predictive Hiring, Automated Skills Assessment, Personality Matching AI, Soft Skills Assessment AI, HR Analytics, Recruitment Optimization, Machine Learning in HR, NLP for Resume Parsing, Deep Learning in Hiring, Bias-Free Hiring AI, AI Behavioral Analysis, Face & Voice Recognition AI, Real-Time Sentiment Analysis, Fraud Detection in Hiring, Gamified Hiring AI, Speech & Text Analysis AI, Free Proctor, Alternative to Mettl" />
+  <meta name="description" content="HR Robots revolutionizes the recruitment process by automating time-consuming tasks such as candidate screening and skill assessments. Our AI-powered recruitment solutions swiftly analyze resumes, match candidates to job requirements, and ensure that only the most qualified individuals progress. By eliminating manual bottlenecks, HR Robots saves significant time and resources for recruiters, facilitating effortless hiring with AI. In addition to these features, our platform offers proctor-based candidate screening and automated skill assessments, maintaining the integrity of the evaluation process. Through AI-driven candidate profiling, we provide deeper insights into each applicant, enhancing the precision of your hiring decisions. Our virtual interview platform enables seamless remote interactions, further streamlining the recruitment journey. Experience the future of recruitment with HR Robots' advanced recruitment automation, designed to elevate your organization's talent acquisition strategy.">
   <meta name="author" content="HR Robots">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://www.hrrobots.click/" />
 
   <!-- Open Graph for Social Sharing -->
-  <meta property="og:title" content="HR Robots - AI Recruitment Software | Automated Candidate Screening & AI Proctoring">
-  <meta property="og:description" content="Leading AI recruitment software with automated candidate screening, AI proctoring tools, and virtual interview platform. Streamline talent acquisition with resume screening AI, skills assessment software, and recruitment automation. Trusted by 70+ companies. Try free today!">
+  <meta property="og:title" content="HR Robots - AI-Powered Hiring & Proctoring">
+  <meta property="og:description" content="HR Robots revolutionizes the recruitment process by automating time-consuming tasks such as candidate screening and skill assessments. Our AI-powered recruitment solutions swiftly analyze resumes, match candidates to job requirements, and ensure that only the most qualified individuals progress. By eliminating manual bottlenecks, HR Robots saves significant time and resources for recruiters, facilitating effortless hiring with AI. In addition to these features, our platform offers proctor-based candidate screening and automated skill assessments, maintaining the integrity of the evaluation process. Through AI-driven candidate profiling, we provide deeper insights into each applicant, enhancing the precision of your hiring decisions. Our virtual interview platform enables seamless remote interactions, further streamlining the recruitment journey. Experience the future of recruitment with HR Robots' advanced recruitment automation, designed to elevate your organization's talent acquisition strategy.">
   <meta property="og:image" content="https://www.hrrobots.click/images/og-image.png">
   <meta property="og:url" content="https://www.hrrobots.click/">
   <meta property="og:type" content="website">
 
   <!-- Twitter Card for Social Sharing -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="HR Robots - AI Recruitment Software | Automated Screening & Proctoring">
-  <meta name="twitter:description" content="AI-powered recruitment platform with automated candidate screening, AI proctoring, virtual interviews, and skills assessment. Reduce time-to-hire with intelligent hiring automation. Free trial available!">
+  <meta name="twitter:title" content="HR Robots - AI-Powered Hiring & Proctoring">
+  <meta name="twitter:description" content="HR Robots revolutionizes the recruitment process by automating time-consuming tasks such as candidate screening and skill assessments. Our AI-powered recruitment solutions swiftly analyze resumes, match candidates to job requirements, and ensure that only the most qualified individuals progress. By eliminating manual bottlenecks, HR Robots saves significant time and resources for recruiters, facilitating effortless hiring with AI. In addition to these features, our platform offers proctor-based candidate screening and automated skill assessments, maintaining the integrity of the evaluation process. Through AI-driven candidate profiling, we provide deeper insights into each applicant, enhancing the precision of your hiring decisions. Our virtual interview platform enables seamless remote interactions, further streamlining the recruitment journey. Experience the future of recruitment with HR Robots' advanced recruitment automation, designed to elevate your organization's talent acquisition strategy.">
   <meta name="twitter:image" content="https://www.hrrobots.click/images/twitter-card.png">
 
   <!-- Schema.org Structured Data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
+    "@type": "Organization",
     "name": "HR Robots",
-    "applicationCategory": "BusinessApplication",
-    "operatingSystem": "Web",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD"
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "ratingCount": "70"
-    },
-    "description": "AI recruitment software platform offering automated candidate screening, AI proctoring tools, virtual interviews, and skills assessment for streamlined talent acquisition and hiring automation.",
     "url": "https://www.hrrobots.click/",
-    "publisher": {
-      "@type": "Organization",
-      "name": "HR Robots",
-      "logo": "https://www.hrrobots.click/images/logo.png",
-      "sameAs": [
-        "https://www.linkedin.com/company/hr-robots",
-        "https://twitter.com/hrrobots",
-        "https://www.facebook.com/hrrobots"
-      ]
-    }
-  }
-  </script>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [{
-      "@type": "Question",
-      "name": "What is AI recruitment software?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "AI recruitment software automates hiring processes including candidate screening, resume parsing, skills assessment, and interview scheduling using artificial intelligence and machine learning algorithms to improve hiring efficiency and quality."
-      }
-    },{
-      "@type": "Question",
-      "name": "How does automated candidate screening work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Automated candidate screening uses AI algorithms to analyze resumes, match skills to job requirements, rank candidates, and filter applications based on predefined criteria, reducing manual review time by up to 70%."
-      }
-    },{
-      "@type": "Question",
-      "name": "What are AI proctoring tools?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "AI proctoring tools provide secure online exam monitoring through webcam surveillance, screen recording, identity verification, and behavioral analysis to prevent cheating during remote assessments and skills tests."
-      }
-    }]
+    "logo": "https://www.hrrobots.click/images/logo.png",
+    "sameAs": [
+      "https://www.linkedin.com/company/hr-robots",
+      "https://twitter.com/hrrobots",
+      "https://www.facebook.com/hrrobots"
+    ]
   }
   </script>
 
-  <title>HR Robots - AI Recruitment Software | Automated Candidate Screening & AI Proctoring Tools</title>
-  
-  <!-- Critical CSS - Inline for Zero Render Blocking -->
-  <style>
-    /* Critical Above-the-Fold Styles - Inline to eliminate render blocking */
-    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-    html{-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:transparent}
-    body{font-family:'Poppins',sans-serif;color:#0c0c0c;background-color:#fff;line-height:1.6;font-size:16px;margin:0}
-    img{max-width:100%;height:auto;display:block;border-style:none}
-    a{text-decoration:none;color:inherit;background-color:transparent}
-    a:hover{color:initial}
-    button{border:none;background:none;cursor:pointer;font-family:inherit}
-    ul{list-style:none;padding:0;margin:0}
-    h1,h2,h3,h4,h5,h6{margin:0;font-weight:700}
-    
-    /* Container */
-    .container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}
-    @media (min-width:576px){.container{max-width:540px}}
-    @media (min-width:768px){.container{max-width:720px}}
-    @media (min-width:992px){.container{max-width:960px}}
-    @media (min-width:1200px){.container{max-width:1170px}}
-    .container-fluid{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}
-    
-    /* Row and Columns */
-    .row{display:flex;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}
-    .col-md-5,.col-md-4,.col-md-6,.col-md-7,.col-md-10,.col-lg-9{position:relative;width:100%;padding-right:15px;padding-left:15px}
-    @media (min-width:768px){
-      .col-md-4{flex:0 0 33.333333%;max-width:33.333333%}
-      .col-md-5{flex:0 0 41.666667%;max-width:41.666667%}
-      .col-md-6{flex:0 0 50%;max-width:50%}
-      .col-md-7{flex:0 0 58.333333%;max-width:58.333333%}
-      .col-md-10{flex:0 0 83.333333%;max-width:83.333333%}
-      .offset-md-1{margin-left:8.333333%}
-    }
-    @media (min-width:992px){.col-lg-9{flex:0 0 75%;max-width:75%}}
-    
-    /* Hero Area */
-    .hero_area{min-height:100vh;background:linear-gradient(to right,#1a2e35 55%,#1cbbb4 55%);display:flex;flex-direction:column;position:relative}
-    @media (max-width:767px){.hero_area{background:#1a2e35}}
-    
-    /* Header */
-    .header_section{overflow-x:hidden}
-    .header_section .container-fluid{padding-right:25px;padding-left:25px}
-    .navbar{position:relative;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;padding:0.5rem 0}
-    .navbar-brand{display:flex;align-items:center;margin-right:5%}
-    .navbar-brand img{max-width:200px;height:auto}
-    .custom_nav-container{z-index:99999;padding:0;height:70px}
-    .navbar-nav{display:flex;flex-direction:row;padding-left:0;margin-bottom:0;list-style:none}
-    .nav-item{margin:0 10px}
-    .nav-link{display:block;padding:10px 15px;color:#fff;text-align:center}
-    .navbar-toggler{padding:0.25rem 0.75rem;font-size:1.25rem;line-height:1;background-color:transparent;border:1px solid transparent;border-radius:0.25rem}
-    
-    /* Slider Section */
-    .slider_section{flex:1;display:flex;align-items:center;position:relative}
-    .slider_section .detail-box h1{font-size:3rem;font-weight:700;color:#fff;margin-bottom:20px}
-    .slider_section .detail-box p{color:#fff;margin-bottom:30px}
-    .btn-box{display:flex;gap:15px;flex-wrap:wrap}
-    .btn-1,.btn-2{display:inline-block;padding:12px 35px;border-radius:5px;transition:all .3s;font-weight:500}
-    .btn-1{background-color:#ff4f5a;color:#fff;border:1px solid #ff4f5a}
-    .btn-1:hover{background-color:transparent;color:#ff4f5a}
-    .btn-2{background-color:#1cbbb4;color:#fff;border:1px solid #1cbbb4}
-    .btn-2:hover{background-color:transparent;color:#1cbbb4}
-    
-    /* Layout */
-    .layout_padding{padding:90px 0}
-    .heading_container{display:flex;margin-bottom:30px}
-    .heading_container h2{font-weight:700;text-transform:uppercase;font-size:2.5rem}
-    .img-box img{width:100%;height:auto;object-fit:cover}
-    
-    /* User Option */
-    .user_option{display:flex;align-items:center}
-    .user_option a{display:flex;color:#fff;align-items:center;padding:10px 20px;background-color:#ff4f5a;border-radius:5px}
-    
-    /* Responsive */
-    @media (max-width:992px){
-      .hero_area{height:auto}
-      .navbar-nav{flex-direction:column;width:100%}
-      .slider_section{padding:45px 0 120px}
-    }
-    @media (max-width:767px){
-      .slider_section{text-align:center;padding-bottom:0}
-      .slider_section .detail-box{margin-bottom:75px}
-      .slider_section .detail-box h1{font-size:2rem}
-      .btn-box{justify-content:center}
-    }
-  </style>
+  <title>HR Robots - AI-Powered Hiring & Proctoring</title>
 
-  <!-- Load all CSS asynchronously to eliminate render blocking -->
-  <link rel="preload" as="style" href="css/bootstrap.css" onload="this.onload=null;this.rel='stylesheet'" />
-  <noscript><link rel="stylesheet" href="css/bootstrap.css"></noscript>
-  
-  <link rel="preload" as="style" href="css/combined.min.css" onload="this.onload=null;this.rel='stylesheet'" />
-  <noscript><link rel="stylesheet" href="css/combined.min.css"></noscript>
-  
-  <!-- Google Fonts - Async Loading with font-display swap -->
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" onload="this.onload=null;this.rel='stylesheet'" />
-  <noscript><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"></noscript>
-  
-  <!-- Fallback font while Google Fonts loads -->
-  <style>
-    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif}
-  </style>
-  
-  <!-- CSS Loading Polyfill for older browsers -->
-  <script>
-    /*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
-    !function(n){"use strict";n.loadCSS||(n.loadCSS=function(){});var o=loadCSS.relpreload={};if(o.support=function(){var e;try{e=n.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),o.bindMediaToggle=function(t){var e=t.media||"all";function a(){t.addEventListener?t.removeEventListener("load",a):t.attachEvent&&t.detachEvent("onload",a),t.setAttribute("onload",null),t.media=e}t.addEventListener?t.addEventListener("load",a):t.attachEvent&&t.attachEvent("onload",a),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(a,3e3)},!o.support()){o.poly=function(){if(!n.document.getElementsByTagName("link"))return;for(var t=n.document.getElementsByTagName("link"),e=0;e<t.length;e++){var a=t[e];"preload"!==a.rel||"style"!==a.getAttribute("as")||a.getAttribute("data-loadcss")||(a.setAttribute("data-loadcss",!0),o.bindMediaToggle(a))}},o.poly();var t=n.setInterval(o.poly,500);n.addEventListener?n.addEventListener("load",function(){o.poly(),n.clearInterval(t)}):n.attachEvent&&n.attachEvent("onload",function(){o.poly(),n.clearInterval(t)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:n.loadCSS=loadCSS}("undefined"!=typeof global?global:this);
-  </script>
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
-
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -254,7 +74,7 @@
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container">
           <a class="navbar-brand" href="index.html">
-            <img src="images/logo.png" alt="HR Robots - AI Recruitment Software Platform" width="200" height="50" loading="eager">
+            <img src="images/logo.png" alt="HR Robots - AI Hiring">
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -319,24 +139,28 @@
               <div class="row">
                 <div class="col-md-5 offset-md-1">
                   <div class="detail-box">
-                    <h1>AI Recruitment Software - Free Trial | Automated Candidate Screening & Hiring Automation
+                    <h1>Try for Free, Effortless Hiring with HR&ensp;Robots  <br>
+			Sign up today!
                     </h1>
                     <p>
-                      Transform your hiring process with HR Robots, the leading AI recruitment software platform. Our automated candidate screening tools, AI proctoring software, and virtual interview platform streamline talent acquisition from resume screening to final selection. Experience intelligent hiring automation that reduces time-to-hire by 70% while improving candidate quality through AI-powered assessment and skills testing.
+                      Welcome to HR Robots, your AI-powered interview and candidate assessment platform.
+
+HR Robots is your intelligent partner in modern human resources. We help organizations automate, streamline, and elevate HR operations using smart digital solutions that work like tireless assistants. From recruitment and onboarding to employee engagement and compliance, HR Robots empowers HR teams to focus on what matters most—people, culture, and growth.
+
                     </p>
                     <div class="btn-box">
                       <a href="#aboutus" class="btn-1">
-                        Learn More About AI Hiring
+                        About Us
                       </a>
                       <a href="https://www.hrrobots.click" class="btn-2">
-                        Start Free Trial - No Credit Card
+                        Sign up! and Try for Free
                       </a>
                     </div>
                   </div>
                 </div>
                 <div class="offset-md-1 col-md-4 img-container">
                   <div class="img-box">
-                    <img src="images/slider-img.png" alt="AI recruitment software dashboard showing automated candidate screening" width="600" height="600" loading="eager">
+                    <img src="images/slider-img.png" alt="AI hiring platform HR Robots">
                   </div>
                 </div>
               </div>
@@ -348,21 +172,21 @@
                 <div class="col-md-5 offset-md-1">
                   <div class="detail-box">
                     <h1>
-			Advanced AI Hiring Features - Virtual Interviews & Candidate Assessment Tools
+			Other Features
                     </h1>
-		    <h2 class="subHead">AI-Powered Virtual Interview Platform</h2>
+		    <h2 class="subHead">AI Interview</h2>
                     <p>
-	                Our AI interview software conducts dynamic, role-specific virtual interviews with intelligent question adaptation. Automated analysis evaluates technical skills, soft skills, and cultural fit, generating comprehensive candidate reports with performance metrics, competency scores, and hiring recommendations for data-driven talent acquisition decisions.
+	                AI-driven virtual interviews ask dynamic, role-specific questions, analyze responses, and evaluate skills, generating a detailed report with performance metrics, strengths, improvement areas, and suitability score. 
                     </p>
-		    <h2 class="subHead">Intelligent Resume Screening & Candidate Profiler</h2>
+		    <h2 class="subHead">Candidate Profiler</h2>
                     <p>
-			Upload resumes and job descriptions to our AI-powered candidate screening tool for instant analysis. Our resume screening AI matches skills, experience, and qualifications against job requirements, providing detailed compatibility scores, skill gap analysis, and candidate ranking to accelerate your recruitment automation workflow.
+			Effortlessly upload a resume and job description to generate a comprehensive report, highlighting skill matches, role suitability, and areas for improvement, ensuring the perfect candidate-job alignment.
                     </p>
                   </div>
                 </div>
                 <div class="offset-md-1 col-md-4 img-container">
                   <div class="img-box">
-                    <img src="images/18775.png" alt="AI virtual interview platform and candidate assessment tools" width="600" height="600" loading="lazy">
+                    <img src="images/18775.png" alt="">
                   </div>
                 </div>
               </div>
@@ -374,38 +198,38 @@
 					<div class="col-md-5 offset-md-1">
 						  <div class="detail-box">
 							<h1>
-							  AI Proctoring Software - Secure Online Assessment & Remote Exam Monitoring
+							  Proctoring Features for a Secure Exam Environment
 							</h1>
 							<div class="card-container">	
 								<div class="card">
 									<div class="card-content">
-										<h2 class="card-title">Advanced Content Protection</h2>
+										<h2 class="card-title">Content Protection</h2>
 										<p class="card-description">
-											Comprehensive security with disabled right-click, text selection prevention, and blocked copy/paste functionality to maintain exam integrity during online assessments.
+											Disable right-click, text selection, and cut/copy/paste functionality.
 										</p>
 									</div>
 								</div>			
 								<div class="card">
 									<div class="card-content">
-										<h2 class="card-title">Automated Fullscreen Monitoring</h2>
+										<h2 class="card-title">Seamless Focus</h2>
 										<p class="card-description">
-											Automatic fullscreen activation with real-time detection of screen exits, ensuring focused test-taking environment for secure remote proctoring.
+											Auto fullscreen activation with monitoring of fullscreen exits.
 										</p>
 									</div>
 								</div>
 								<div class="card">
 									<div class="card-content">
-										<h2 class="card-title">AI-Powered Real-Time Surveillance</h2>
+										<h2 class="card-title">Real-Time Surveillance</h2>
 										<p class="card-description">
-											Integrated camera and microphone access for continuous candidate monitoring, identity verification, and behavioral analysis during online exams.
+											Access camera and microphone for participant visibility and audio checks.
 										</p>
 									</div>
 								</div>
 								<div class="card">
 									<div class="card-content">
-										<h2 class="card-title">Smart Question Randomization</h2>
+										<h2 class="card-title">Dynamic Exam Management</h2>
 										<p class="card-description">
-											Dynamic question reordering and randomization for each candidate to prevent cheating and ensure fair assessment in skills testing.
+											Reorder questions for varied user experiences.
 										</p>
 									</div>
 								</div>
@@ -414,7 +238,7 @@
 					</div>
                 <div class="offset-md-1 col-md-4 img-container">
                   <div class="img-box">
-                    <img src="images/9837494.png" alt="AI proctoring software for secure online assessments and remote exam monitoring" width="600" height="600" loading="lazy">
+                    <img src="images/9837494.png" alt="">
                   </div>
                 </div>
               </div>
@@ -436,56 +260,25 @@
       <div class="row">
         <div class="col-md-5">
           <div class="img-box">
-            <img src="images/experience-img.jpg" alt="Automated candidate screening and AI recruitment workflow" width="500" height="400" loading="lazy">
+            <img src="images/experience-img.jpg" alt="">
           </div>
         </div>
         <div class="col-md-7">
           <div class="detail-box">
             <div class="heading_container">
               <h2>
-                Recruitment Automation & Talent Acquisition Made Simple with AI
+                Simplifying Recruitment with AI
               </h2>
             </div>
             <p>
-              HR Robots transforms talent acquisition through intelligent recruitment automation. Our AI recruitment software automates time-intensive tasks including automated candidate screening, resume parsing, skills assessment, and interview scheduling. The platform's advanced resume screening AI analyzes thousands of applications instantly, matching candidates to job requirements with precision while eliminating unconscious bias.
+              HR Robots revolutionizes the recruitment process by automating time-consuming tasks such as candidate screening and skill assessments. Our AI-powered recruitment solutions swiftly analyze resumes, match candidates to job requirements, and ensure that only the most qualified individuals progress. By eliminating manual bottlenecks, HR Robots saves significant time and resources for recruiters, facilitating effortless hiring with AI.
 </p><p>
-Our comprehensive solution includes AI proctoring tools for secure online assessments, automated skills testing platforms, and virtual interview software that conducts intelligent candidate evaluations. Through AI-driven candidate profiling and predictive analytics, recruiters gain actionable insights for data-driven hiring decisions. The integrated ATS system streamlines the entire recruitment workflow from sourcing to onboarding, reducing time-to-hire by up to 70% while improving candidate quality and hiring outcomes through intelligent automation.
+In addition to these features, our platform offers proctor-based candidate screening and automated skill assessments, maintaining the integrity of the evaluation process. Through AI-driven candidate profiling, we provide deeper insights into each applicant, enhancing the precision of your hiring decisions. Our virtual interview platform enables seamless remote interactions, further streamlining the recruitment journey. Experience the future of recruitment with HR Robots' advanced recruitment automation, designed to elevate your organization's talent acquisition strategy. 
 			  </p>
             </div>
           </div>
         </div>
-			<!-- Lazy-loaded Vimeo Video with Thumbnail -->
-			<div style="padding:56.25% 0 0 0;position:relative;" id="vimeo-container">
-				<div id="vimeo-placeholder" style="position:absolute;top:0;left:0;width:100%;height:100%;background:#1a2e35 url('images/slider-img.png') center/cover;cursor:pointer;display:flex;align-items:center;justify-content:center;">
-					<svg width="80" height="80" viewBox="0 0 80 80" fill="none" style="opacity:0.9;">
-						<circle cx="40" cy="40" r="40" fill="rgba(255,255,255,0.9)"/>
-						<path d="M32 25L55 40L32 55V25Z" fill="#1a2e35"/>
-					</svg>
-				</div>
-				<iframe 
-					id="vimeo-iframe"
-					data-src="https://player.vimeo.com/video/1154905626?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
-					allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" 
-					referrerpolicy="strict-origin-when-cross-origin" 
-					style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;display:none;" 
-					title="HR Robots Demo Video" 
-					loading="lazy">
-				</iframe>
-			</div>
-			<script>
-				// Load video only when user clicks
-				document.addEventListener('DOMContentLoaded', function() {
-					var placeholder = document.getElementById('vimeo-placeholder');
-					var iframe = document.getElementById('vimeo-iframe');
-					if (placeholder && iframe) {
-						placeholder.addEventListener('click', function() {
-							iframe.src = iframe.getAttribute('data-src');
-							iframe.style.display = 'block';
-							placeholder.style.display = 'none';
-						});
-					}
-				});
-			</script>
+			<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1154905626?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="HR Robots"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
       </div>
     </div>
   </section>
@@ -499,40 +292,20 @@ Our comprehensive solution includes AI proctoring tools for secure online assess
       <div class="row">
         <div class="col-md-10 col-lg-9 mx-auto">
           <div class="img-box">
-            <img src="images/about-img.jpg" alt="AI recruitment software team collaboration and automated hiring" width="900" height="600" loading="lazy">
+            <img src="images/about-img.jpg" alt="">
           </div>
         </div>
       </div>
       <div class="detail-box">
         <h2>
-          About HR Robots - Leading AI Recruitment Software & Automated Hiring Platform
+          About HR Robots
         </h2>
         <p>
-          <b>Revolutionizing Talent Acquisition with AI-Powered Recruitment Automation</b></p>
-          <p><b>HR Robots</b> is an enterprise-grade AI recruitment software platform engineered to transform hiring processes through intelligent automation. Our comprehensive suite includes automated candidate screening, AI proctoring tools, virtual interview software, and skills assessment platforms that streamline every stage of talent acquisition.</p>
-          <p>Our AI-powered recruitment automation eliminates manual bottlenecks by automating resume screening, candidate ranking, interview scheduling, and skills testing. The platform leverages machine learning algorithms and natural language processing to analyze thousands of applications in seconds, ensuring only the most qualified candidates advance. This intelligent screening reduces time-to-hire by 70% while improving hiring quality through data-driven insights and predictive analytics.</p>
-          <p>HR Robots delivers measurable ROI through reduced recruitment costs, improved candidate quality, and streamlined workflows. Our AI proctoring software ensures assessment integrity with real-time monitoring, identity verification, and cheating detection. The integrated virtual interview platform conducts intelligent candidate evaluations with automated scoring and competency mapping. Trusted by 70+ organizations worldwide, HR Robots empowers recruiters to focus on strategic talent acquisition while our AI handles repetitive tasks, delivering faster, smarter, and more effective hiring outcomes.</p>
-	  <p>✨ Contact our team at <b><i><span id="email-contact"></span></i></b> for a personalized demo ✨</p>
-	  <script>
-	    // Email obfuscation to prevent spam harvesting
-	    (function() {
-	      var user = 'bot';
-	      var domain = 'hrrobots' + '.' + 'com';
-	      var email = user + '@' + domain;
-	      var emailElement = document.getElementById('email-contact');
-	      if (emailElement) {
-	        var link = document.createElement('a');
-	        link.href = 'mailto:' + email;
-	        link.textContent = email;
-	        link.style.color = 'inherit';
-	        link.style.textDecoration = 'none';
-	        emailElement.appendChild(link);
-	      }
-	    })();
-	  </script>
-	  <noscript>
-	    <span>bot [at] hrrobots [dot] com</span>
-	  </noscript>
+          <b>About HR Robots: Simplifying Recruitment with AI</b></p>
+          <p><b>HR Robots</b> is a cutting-edge AI-powered recruitment platform designed to streamline and enhance hiring processes. It simplifies traditionally labor-intensive tasks such as candidate screening, interview scheduling, and skill assessments by leveraging advanced artificial intelligence.</p>
+          <p>HR Robots revolutionizes the recruitment process by automating repetitive and time-consuming tasks, allowing recruiters to focus on strategic and value-driven activities. By automating tasks like candidate screening, scheduling interviews, and follow-ups, it eliminates inefficiencies and significantly reduces the time required for these processes. This streamlined approach not only saves valuable time but also minimizes the risk of human error, ensuring a seamless and accurate recruitment workflow.</p>
+          <p>Additionally, HR Robots helps organizations reduce recruitment costs by optimizing workflows and removing manual bottlenecks. Its advanced algorithms and data-driven insights enhance hiring quality by ensuring only the most qualified candidates are shortlisted, aligning perfectly with organizational needs. By taking care of the heavy lifting in recruitment, HR Robots empowers recruiters and HR teams to dedicate their energy to strategic decision-making, fostering a more efficient, effective, and forward-thinking recruitment process.</p>
+	  <p>✨ Drop us a line at <b><i>bot@hrrobots.com</i></b> ✨</p>	      
         </div>
     </div>
   </section>
@@ -549,13 +322,13 @@ Our comprehensive solution includes AI proctoring tools for secure online assess
             <div class="detail-box">
               <div class="heading_container">
                 <h2>
-                  Proven Results - AI Recruitment Software Trusted by 70+ Companies Worldwide
+                  HR Robots has revolutionized HR processes for companies worldwide.
                 </h2>
               </div>
               <div class="tab_container">
                 <!--div class="t-link-box" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                   <div class="img-box">
-                    <img src="images/f1.png" alt="Recruitment cost savings icon">
+                    <img src="images/f1.png" alt="">
                   </div>
                   <div class="detail-box">
                     <h5>
@@ -568,7 +341,7 @@ Our comprehensive solution includes AI proctoring tools for secure online assess
 	      </div-->
                 <!--div class="t-link-box collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                   <div class="img-box">
-                    <img src="images/f2.png" alt="Candidate screening assessments icon">
+                    <img src="images/f2.png" alt="">
                   </div>
                   <div class="detail-box">
                     <h5>
@@ -581,7 +354,7 @@ Our comprehensive solution includes AI proctoring tools for secure online assess
 	      </div-->
                 <div class="t-link-box collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                   <div class="img-box">
-                    <img src="images/f3.png" alt="70+ companies worldwide using HR Robots AI recruitment software" width="80" height="80" loading="lazy">
+                    <img src="images/f3.png" alt="">
                   </div>
                   <div class="detail-box">
                     <h5>
@@ -594,7 +367,7 @@ Our comprehensive solution includes AI proctoring tools for secure online assess
                 </div>
                 <div class="t-link-box collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                   <div class="img-box">
-                    <img src="images/f4.png" alt="98% customer satisfaction rate with AI hiring platform" width="80" height="80" loading="lazy">
+                    <img src="images/f4.png" alt="">
                   </div>
                   <div class="detail-box">
                     <h5>
@@ -612,22 +385,22 @@ Our comprehensive solution includes AI proctoring tools for secure online assess
           <div class="col-md-6">
             <div class="collapse show" id="collapseOne" aria-labelledby="headingOne" data-parent="#accordion">
               <div class="img-box">
-                <img src="images/recruitmentcostsaved.jpg" alt="Recruitment cost savings with AI-powered hiring automation" width="700" height="500" loading="lazy">
+                <img src="images/recruitmentcostsaved.jpg" alt="">
               </div>
             </div>
             <div class="collapse" id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordion">
               <div class="img-box">
-                <img src="images/assesments.jpg" alt="AI-powered skills assessments and candidate screening tools" width="700" height="500" loading="lazy">
+                <img src="images/assesments.jpg" alt="">
               </div>
             </div>
             <div class="collapse" id="collapseThree" aria-labelledby="headingThree" data-parent="#accordion">
               <div class="img-box">
-                <img src="images/freelance-img.jpg" alt="Global companies using AI recruitment software for talent acquisition" width="700" height="500" loading="lazy">
+                <img src="images/freelance-img.jpg" alt="">
               </div>
             </div>
             <div class="collapse" id="collapseFour" aria-labelledby="headingfour" data-parent="#accordion">
               <div class="img-box">
-                <img src="images/customer.jpg" alt="Happy customers using automated candidate screening platform" width="700" height="500" loading="lazy">
+                <img src="images/customer.jpg" alt="">
               </div>
             </div>
           </div>
@@ -636,7 +409,9 @@ Our comprehensive solution includes AI proctoring tools for secure online assess
     </div>
   </section>
 
-  <!-- end freelance section -->  
+  <!-- end freelance section -->
+
+  
   <!-- footer section -->
   <footer class="container-fluid footer_section ">
     <div class="container">
@@ -648,51 +423,13 @@ Our comprehensive solution includes AI proctoring tools for secure online assess
   </footer>
   <!-- end  footer section -->
 
-  <!-- JavaScript files - Combined and Deferred for better performance -->
-  <script defer src="js/jquery-3.4.1.min.js"></script>
-  <script defer src="js/bootstrap.js"></script>
-  <script defer src="js/combined.min.js"></script>
-  
-  <!-- Service Worker Registration for Performance -->
-  <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', function() {
-        navigator.serviceWorker.register('/sw.js').catch(function(e){});
-      });
-    }
-  </script>
-  
-  <!-- Vimeo Player API - Lazy load only when needed -->
-  <script>
-    // Load video only when user clicks
-    document.addEventListener('DOMContentLoaded', function() {
-      var placeholder = document.getElementById('vimeo-placeholder');
-      var iframe = document.getElementById('vimeo-iframe');
-      if (placeholder && iframe) {
-        placeholder.addEventListener('click', function() {
-          iframe.src = iframe.getAttribute('data-src');
-          iframe.style.display = 'block';
-          placeholder.style.display = 'none';
-          // Load Vimeo API only when needed
-          if (!document.querySelector('script[src*="vimeo"]')) {
-            var script = document.createElement('script');
-            script.src = 'https://player.vimeo.com/api/player.js';
-            script.async = true;
-            document.body.appendChild(script);
-          }
-        });
-      }
-    });
-  </script>
-  
-  <!-- Fallback for users with JavaScript disabled -->
-  <noscript>
-    <div style="text-align: center; padding: 20px; background: #f8f9fa; margin: 20px;">
-      <p><strong>JavaScript is disabled in your browser.</strong></p>
-      <p>For the best experience with HR Robots AI Recruitment Software, please enable JavaScript.</p>
-    </div>
-  </noscript>
 
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/custom.js"></script>
+
+
+</body>
 </body>
 
 </html>
