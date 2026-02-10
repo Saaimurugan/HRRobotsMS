@@ -40,6 +40,19 @@ body {
   background-color: #ffffff;
 }
 
+// Responsive Images
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.img-box img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
 .layout_padding {
   padding-top: 90px;
   padding-bottom: 90px;

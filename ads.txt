@@ -1,0 +1,17 @@
+# ads.txt file for hrrobots.click
+# More information: https://iabtechlab.com/ads-txt/
+
+# HR Robots - AI Recruitment Software Platform
+# This website does not currently sell advertising inventory
+# Last updated: 2026-02-10
+
+# If you are a publisher and want to authorize sellers, add them below
+# Format: <FIELD #1>, <FIELD #2>, <FIELD #3>, <FIELD #4>
+# Example: google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+
+# Currently no authorized digital sellers
+# Contact: bot@hrrobots.com for advertising inquiries
+
+# Placeholder entry to indicate intentional ads.txt presence
+# Remove this line and add actual entries when monetizing with ads
+placeholder.com, placeholder, DIRECT, placeholder

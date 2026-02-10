@@ -1,0 +1,77 @@
+# robots.txt for HR Robots - AI Recruitment Software
+# https://www.hrrobots.click/
+
+# Allow all search engines to crawl the site
+User-agent: *
+Allow: /
+
+# Disallow crawling of admin, private, and system directories
+Disallow: /cgi-bin/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /.git/
+
+# Disallow crawling of duplicate or non-essential files
+Disallow: /*.scss$
+Disallow: /*.map$
+Disallow: /css/*.scss
+Disallow: /css/*.map
+
+# Allow crawling of CSS and JS for proper rendering
+Allow: /css/*.css
+Allow: /js/*.js
+
+# Allow crawling of all images for image search
+Allow: /images/
+Allow: /Asserts/
+
+# Crawl delay to reduce server load (optional - adjust as needed)
+# Crawl-delay: 1
+
+# Sitemap location for search engines
+Sitemap: https://www.hrrobots.click/sitemap.xml
+
+# Specific rules for major search engines
+
+# Google
+User-agent: Googlebot
+Allow: /
+Disallow: /cgi-bin/
+Disallow: /admin/
+
+# Google Image Bot
+User-agent: Googlebot-Image
+Allow: /images/
+Allow: /Asserts/
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Disallow: /cgi-bin/
+Disallow: /admin/
+
+# Yahoo
+User-agent: Slurp
+Allow: /
+Disallow: /cgi-bin/
+Disallow: /admin/
+
+# Yandex
+User-agent: Yandex
+Allow: /
+Disallow: /cgi-bin/
+Disallow: /admin/
+
+# Block bad bots and scrapers
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /

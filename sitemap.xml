@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  
+  <!-- Homepage - AI Recruitment Software -->
+  <url>
+    <loc>https://www.hrrobots.click/</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    
+    <!-- Logo Image -->
+    <image:image>
+      <image:loc>https://www.hrrobots.click/images/logo.png</image:loc>
+      <image:title>HR Robots - AI Recruitment Software Logo</image:title>
+      <image:caption>AI-powered recruitment and hiring automation platform</image:caption>
+    </image:image>
+    
+    <!-- Main Hero Image -->
+    <image:image>
+      <image:loc>https://www.hrrobots.click/images/slider-img.png</image:loc>
+      <image:title>AI Recruitment Dashboard - Automated Candidate Screening</image:title>
+      <image:caption>Automated candidate screening interface showing AI recruitment workflow</image:caption>
+    </image:image>
+    
+    <!-- AI Interview Features -->
+    <image:image>
+      <image:loc>https://www.hrrobots.click/images/18775.png</image:loc>
+      <image:title>AI Virtual Interview Platform and Candidate Assessment Tools</image:title>
+      <image:caption>Virtual interview software with automated candidate evaluation</image:caption>
+    </image:image>
+    
+    <!-- AI Proctoring Features -->
+    <image:image>
+      <image:loc>https://www.hrrobots.click/images/9837494.png</image:loc>
+      <image:title>AI Proctoring Software for Secure Online Assessments</image:title>
+      <image:caption>Remote exam monitoring and secure online assessment platform</image:caption>
+    </image:image>
+    
+    <!-- Experience Section -->
+    <image:image>
+      <image:loc>https://www.hrrobots.click/images/experience-img.jpg</image:loc>
+      <image:title>Automated Candidate Screening and AI Recruitment Workflow</image:title>
+      <image:caption>Recruitment automation and talent acquisition process</image:caption>
+    </image:image>
+    
+    <!-- About Section -->
+    <image:image>
+      <image:loc>https://www.hrrobots.click/images/about-img.jpg</image:loc>
+      <image:title>AI Recruitment Software Team Collaboration</image:title>
+      <image:caption>HR team using automated hiring platform for talent acquisition</image:caption>
+    </image:image>
+    
+    <!-- Success Stories -->
+    <image:image>
+      <image:loc>https://www.hrrobots.click/images/freelance-img.jpg</image:loc>
+      <image:title>Companies Using AI Recruitment Software Worldwide</image:title>
+      <image:caption>Global companies benefiting from recruitment automation</image:caption>
+    </image:image>
+    
+    <image:image>
+      <image:loc>https://www.hrrobots.click/images/customer.jpg</image:loc>
+      <image:title>Customer Satisfaction with AI Hiring Platform</image:title>
+      <image:caption>98% customer satisfaction rate for automated candidate screening</image:caption>
+    </image:image>
+    
+    <!-- Demo Video -->
+    <video:video>
+      <video:thumbnail_loc>https://www.hrrobots.click/images/slider-img.png</video:thumbnail_loc>
+      <video:title>HR Robots - AI Recruitment Software Demo</video:title>
+      <video:description>See how HR Robots automates candidate screening, AI proctoring, and virtual interviews for streamlined talent acquisition</video:description>
+      <video:content_loc>https://player.vimeo.com/video/1154905626</video:content_loc>
+      <video:player_loc>https://player.vimeo.com/video/1154905626</video:player_loc>
+      <video:duration>180</video:duration>
+      <video:publication_date>2026-02-10</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+    </video:video>
+  </url>
+  
+  <!-- Index page (canonical) -->
+  <url>
+    <loc>https://www.hrrobots.click/index.html</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- CSS Resources (for proper rendering) -->
+  <url>
+    <loc>https://www.hrrobots.click/css/style.css</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hrrobots.click/css/bootstrap.css</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hrrobots.click/css/responsive.css</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>
